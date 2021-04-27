@@ -4,7 +4,7 @@
 - [Post](#posts/index)
 - [Individual Post](#user/posts/index)
 
-## Way to use
+## Installation
 - Copy clone link
 - Add this project into the htdocs of xampp folder from terminal 
   * Window + R and write "cmd"
@@ -12,6 +12,8 @@
     - git clone url(clone link)
     - cd folder (cd scm-blog)
     - code .
+  * composer install
+    - copy .env.example .env
     - php artisan key:generate
     - php artisan migrate
     - php artisan serve
