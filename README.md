@@ -5,19 +5,19 @@
 - [Individual Post](#user/posts/index)
 
 ## Installation
-- Copy clone link
-- Add this project into the htdocs of xampp folder from terminal 
-  * Window + R and write "cmd"
-  * Add Clone Link into folder and import database
-    - git clone url(clone link)
-    - cd folder (cd scm-blog)
-    - code .
-  * composer install
-    - copy .env.example .env
-    - php artisan key:generate
-    - php artisan migrate
-    - php artisan serve
-- Run the project
+
+```
+
+- git clone https://github.com/Yoonmie/laravel_blog.git
+- cd laravel_blog
+- composer install
+- cp .env.example .env
+- create database
+- php artisan key:generate
+- php artisan migrate
+- php artisan serve
+
+```
 
 ## Project Flow 
 - Can add new post
